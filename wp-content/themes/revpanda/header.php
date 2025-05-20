@@ -15,7 +15,7 @@
 
 <body <?php body_class(); ?>>
 
-  <header class="bg-[#9B0684] text-white">
+  <header class="bg-main-pink text-white">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <a href="<?php echo esc_url(home_url('/')); ?>" class="flex items-center">
         <img src="<?php echo get_template_directory_uri(); ?>/src/images/logo.png" alt="Logo" class="h-10 w-auto">

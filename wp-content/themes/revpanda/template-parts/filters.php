@@ -8,7 +8,7 @@
 <div class="mb-6">
 
     <!--large screens-->
-    <div class="hidden md:flex justify-center gap-4">
+    <div class="hidden md:flex justify-center font-poppins gap-4">
         <button
             class="flex items-center text-[#990085] font-semibold hover:bg-[#C213AB] hover:text-white border border-[#990085] px-6 py-2 rounded-sm transition">
             <img src="<?php echo get_template_directory_uri(); ?>/src/images/listings/top-rated.png" alt="top-rated"

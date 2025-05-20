@@ -4,7 +4,7 @@
  */
 ?>
 
-<div class="w-[80%] mx-auto border border-[#990085] rounded-sm overflow-hidden mb-8">
+<div class="max-w-[1120px] mx-auto border border-[#990085] rounded-sm overflow-hidden mb-8">
     <!--toggle header-->
     <button id="tocToggle"
         class="w-full flex items-center justify-between sm:justify-center gap-2 relative bg-[#FEF7F9] text-[#990085] py-3 px-4 font-semibold focus:outline-none">
