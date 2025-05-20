@@ -4,7 +4,7 @@
  */
 ?>
 
-<section class="bg-red-100 w-4/5 px-4 md:px-8 py-4 mb-6 mx-auto ">
+<section class="bg-main w-full sm:max-w-[1120px] px-4 md:px-8 py-4 my-6 mx-auto ">
   <div class="flex items-center space-x-4">
     <div class="relative w-12 h-12">
       <img src="<?php echo get_template_directory_uri(); ?>/src/images/author-card/author-avatar.png"

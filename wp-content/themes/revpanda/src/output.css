@@ -246,6 +246,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-6 {
+    margin-block: calc(var(--spacing) * 6);
+  }
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
@@ -871,6 +874,11 @@
   .sm\:w-\[310px\] {
     @media (width >= 40rem) {
       width: 310px;
+    }
+  }
+  .sm\:w-\[1120px\] {
+    @media (width >= 40rem) {
+      width: 1120px;
     }
   }
   .sm\:max-w-\[530px\] {
