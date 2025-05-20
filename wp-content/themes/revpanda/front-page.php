@@ -12,6 +12,8 @@
 
 <?php get_template_part('template-parts/toc'); ?>
 
+<?php get_template_part('template-parts/filters'); ?>
+
 <?php get_template_part('template-parts/listings'); ?>
 
 <?php get_footer(); ?>

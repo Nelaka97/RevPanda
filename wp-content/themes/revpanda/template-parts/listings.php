@@ -4,49 +4,6 @@
  */
 ?>
 
-<!--Filter buttons on top-->
-<!--(This is not functioning as it was not asked in the task)-->
-<div class="mb-6">
-  <div class="block md:hidden w-[90%] mx-auto">
-    <label for="filter-dropdown" class="sr-only">Sort by</label>
-    <select class="w-full border border-[#990085] text-[#990085] font-semibold px-4 py-2 rounded-sm">
-      <option disabled selected>Sort by</option>
-      <option>Top Rated</option>
-      <option>Recently Added</option>
-      <option>Best Free Spins</option>
-      <option>Best Bonus</option>
-    </select>
-  </div>
-
-  <!--Buttons for large screens-->
-  <div class="hidden md:flex justify-center gap-4">
-    <button
-      class="flex items-center text-[#990085] font-semibold hover:bg-[#C213AB] hover:text-white border border-[#990085] px-6 py-2 rounded-sm transition">
-      <img src="<?php echo get_template_directory_uri(); ?>/src/images/listings/top-rated.png" alt="top-rated"
-        class="h-5 w-5">
-      <span class="pl-2">Top Rated</span>
-    </button>
-    <button
-      class="flex items-center text-[#990085] font-semibold hover:bg-[#C213AB] hover:text-white border border-[#990085] px-6 py-2 rounded-sm transition">
-      <img src="<?php echo get_template_directory_uri(); ?>/src/images/listings/recently-added.png" alt="recently-added"
-        class="h-5 w-5">
-      <span class="pl-2">Recently Added</span>
-    </button>
-    <button
-      class="flex items-center text-[#990085] font-semibold hover:bg-[#C213AB] hover:text-white border border-[#990085] px-6 py-2 rounded-sm transition">
-      <img src="<?php echo get_template_directory_uri(); ?>/src/images/listings/free-spins.png" alt="free-spins"
-        class="h-5 w-5">
-      <span class="pl-2">Best Free Spins</span>
-    </button>
-    <button
-      class="flex items-center text-[#990085] font-semibold hover:bg-[#C213AB] hover:text-white border border-[#990085] px-6 py-2 rounded-sm transition">
-      <img src="<?php echo get_template_directory_uri(); ?>/src/images/listings/best-bonus.png" alt="best-bonus"
-        class="h-5 w-5">
-      <span class="pl-2">Best Bonus</span>
-    </button>
-  </div>
-</div>
-
 <?php
 $listing_query_args = array(
   'post_type' => 'listing',
