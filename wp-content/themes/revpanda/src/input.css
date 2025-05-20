@@ -13,8 +13,28 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.bg-main-pink{
-    background-color: #990085;
+.bg-main-pink {
+  background-color: #990085;
+}
+
+.bg-pink-90 {
+  background-color: #47003E;
+}
+
+.bg-pink-80 {
+  background-color: #700062;
+}
+
+.bg-gradient-pink {
+  background: linear-gradient(to bottom, #C213AB, #990085);
+}
+
+.bg-main {
+  background-color: #FEF7F9;
+}
+
+.main-border {
+  border-color: #990085;
 }
 
 
