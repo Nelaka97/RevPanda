@@ -103,7 +103,7 @@ endif;
 <!--Show more button at bottom-->
 <div class="flex justify-center mt-6 mb-10">
   <button
-    class="text-[#990099] font-semibold hover:bg-[#990099] hover:text-white border border-[#990099] rounded-md px-6 py-2 transition">
+    class="w-[140px] sm:w-[165px] h-[40px] sm:h-[48px] pink-text font-bold text-sm sm:text-base hover:bg-main-pink border main-border rounded-sm px-6 py-2 transition">
     Show More
   </button>
 </div>
