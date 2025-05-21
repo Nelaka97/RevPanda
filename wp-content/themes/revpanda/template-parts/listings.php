@@ -55,7 +55,8 @@ if ($listings->have_posts()):
               class="flex flex-col items-center leading-tight justify-center bg-gradient-pink w-[80px] sm:w-[116px] h-[86px] sm:h-[120px] rounded-sm text-center px-1">
               <p class="text-sm sm:text-md break-words leading-tight sm:leading-normal">100% Up to</p>
               <div class="flex flex-wrap items-baseline justify-center">
-                <p class="text-2xl font-bold break-words leading-tight sm:leading-normal">€<?php echo esc_html($bonus); ?></p>
+                <p class="text-2xl font-bold break-words leading-tight sm:leading-normal">€<?php echo esc_html($bonus); ?>
+                </p>
                 <p class="text-sm sm:text-md sm:ml-1 break-words leading-tight sm:leading-normal">Bonus</p>
               </div>
             </div>
@@ -97,10 +98,17 @@ if ($listings->have_posts()):
     $rank_of_the_listing++;
   endwhile;
   wp_reset_postdata();
-endif;
-?>
+else: ?>
+  <div
+    class="max-w-[358px] sm:max-w-[1120px] mx-auto bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-3 mt-6 text-center rounded-sm">
+    <p class="text-lg font-semibold mb-2">No listings available!</p>
+    <p>Please go to the <a href="<?php echo admin_url('edit.php?post_type=listing'); ?>"
+        class="underline font-medium text-yellow-900">Admin Dashboard</a> and add some listings to display here..
+    </p>
+  </div>
+<?php endif; ?>
 
-<!--Show more button at bottom-->
+<!--Show more button / not functional as it is not required by the task -->
 <div class="flex justify-center mt-6 mb-10">
   <button
     class="w-[140px] sm:w-[165px] h-[40px] sm:h-[48px] pink-text font-bold text-sm sm:text-base hover:bg-main-pink border main-border rounded-sm px-6 py-2 transition">
