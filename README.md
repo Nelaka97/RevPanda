@@ -19,7 +19,8 @@
 6. Start tailwind  (in theme root) - npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch 
 7. Open browser / Make sure the site URL in `wp_options` matches your local setup (e.g., `http://localhost/revpanda`)
 8. Activate the theme and plugin from WP Admin
-9. Enjoy!!
+9. If you need WP admin access - Username: nelaka97 | Password: Nelakadil1234$
+10. Enjoy!!
 
 ## 🔗 Demo/Preview
 Demo Video is attached to the repo root directory
