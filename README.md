@@ -24,3 +24,10 @@
 
 ## 🔗 Demo/Preview
 Demo Video is attached to the repo root directory
+
+## 🔗 Connect with Me
+
+📱 **Mobile:** +371 22 443 491  
+📧 **Email:** [nelakad@gmail.com](mailto:nelakad@gmail.com)  
+🔗 **LinkedIn:** [linkedin.com/in/nelakakannangara](https://www.linkedin.com/in/nelakakannangara/)
+
